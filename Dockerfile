@@ -1,7 +1,7 @@
 FROM centos
 LABEL maintainer "Mark Stacy"
 
-LABEL s3fs-sidecar.version="0.1.0" \
+LABEL s3fs-sidecar.version="0.0.1" \
       s3fs-sidecar.description="Use s3 as backend for a kubernetes deployment by running as sidecar"
 
 ENV S3_BUCKET ''
